@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		76A36C8127C8E91400F9EFB2 /* ObservableObjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C8027C8E91400F9EFB2 /* ObservableObjectApp.swift */; };
-		76A36C8327C8E91400F9EFB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C8227C8E91400F9EFB2 /* ContentView.swift */; };
 		76A36C8527C8E91500F9EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A36C8427C8E91500F9EFB2 /* Assets.xcassets */; };
 		76A36C8827C8E91500F9EFB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A36C8727C8E91500F9EFB2 /* Preview Assets.xcassets */; };
 		76A36C8A27C8E91500F9EFB2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C8927C8E91500F9EFB2 /* Persistence.swift */; };
 		76A36C8D27C8E91500F9EFB2 /* ObservableObject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C8B27C8E91500F9EFB2 /* ObservableObject.xcdatamodeld */; };
+		76A36C9427C8E93D00F9EFB2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C9327C8E93D00F9EFB2 /* HomeScreen.swift */; };
+		76A36C9827C8E9B900F9EFB2 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C9727C8E9B900F9EFB2 /* SignIn.swift */; };
+		76A36C9A27C8E9C400F9EFB2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C9927C8E9C400F9EFB2 /* SignUp.swift */; };
+		76A36C9E27C8EF0D00F9EFB2 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C9D27C8EF0D00F9EFB2 /* Status.swift */; };
+		76A36CA027C8F18600F9EFB2 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A36C9F27C8F18600F9EFB2 /* StarterScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76A36C7D27C8E91400F9EFB2 /* ObservableObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A36C8027C8E91400F9EFB2 /* ObservableObjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectApp.swift; sourceTree = "<group>"; };
-		76A36C8227C8E91400F9EFB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76A36C8427C8E91500F9EFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76A36C8727C8E91500F9EFB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76A36C8927C8E91500F9EFB2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		76A36C8C27C8E91500F9EFB2 /* ObservableObject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObservableObject.xcdatamodel; sourceTree = "<group>"; };
+		76A36C9327C8E93D00F9EFB2 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		76A36C9727C8E9B900F9EFB2 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		76A36C9927C8E9C400F9EFB2 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		76A36C9D27C8EF0D00F9EFB2 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		76A36C9F27C8F18600F9EFB2 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +63,12 @@
 		76A36C7F27C8E91400F9EFB2 /* ObservableObject */ = {
 			isa = PBXGroup;
 			children = (
+				76A36C9627C8E9A800F9EFB2 /* screens */,
+				76A36C9527C8E96600F9EFB2 /* apputils */,
 				76A36C8027C8E91400F9EFB2 /* ObservableObjectApp.swift */,
-				76A36C8227C8E91400F9EFB2 /* ContentView.swift */,
-				76A36C8427C8E91500F9EFB2 /* Assets.xcassets */,
-				76A36C8927C8E91500F9EFB2 /* Persistence.swift */,
-				76A36C8B27C8E91500F9EFB2 /* ObservableObject.xcdatamodeld */,
+				76A36C9327C8E93D00F9EFB2 /* HomeScreen.swift */,
 				76A36C8627C8E91500F9EFB2 /* Preview Content */,
+				76A36C9D27C8EF0D00F9EFB2 /* Status.swift */,
 			);
 			path = ObservableObject;
 			sourceTree = "<group>";
@@ -71,6 +79,26 @@
 				76A36C8727C8E91500F9EFB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76A36C9527C8E96600F9EFB2 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				76A36C8B27C8E91500F9EFB2 /* ObservableObject.xcdatamodeld */,
+				76A36C8927C8E91500F9EFB2 /* Persistence.swift */,
+				76A36C8427C8E91500F9EFB2 /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		76A36C9627C8E9A800F9EFB2 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				76A36C9727C8E9B900F9EFB2 /* SignIn.swift */,
+				76A36C9927C8E9C400F9EFB2 /* SignUp.swift */,
+				76A36C9F27C8F18600F9EFB2 /* StarterScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A36C9427C8E93D00F9EFB2 /* HomeScreen.swift in Sources */,
+				76A36C9A27C8E9C400F9EFB2 /* SignUp.swift in Sources */,
+				76A36C9E27C8EF0D00F9EFB2 /* Status.swift in Sources */,
+				76A36CA027C8F18600F9EFB2 /* StarterScreen.swift in Sources */,
 				76A36C8A27C8E91500F9EFB2 /* Persistence.swift in Sources */,
+				76A36C9827C8E9B900F9EFB2 /* SignIn.swift in Sources */,
 				76A36C8D27C8E91500F9EFB2 /* ObservableObject.xcdatamodeld in Sources */,
-				76A36C8327C8E91400F9EFB2 /* ContentView.swift in Sources */,
 				76A36C8127C8E91400F9EFB2 /* ObservableObjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
